@@ -24,6 +24,14 @@ body {
 }
 
  /* Main Section */
+
+.section-separator {
+    margin-left: 65px;
+    margin-right: 52px;
+    background-color:lavender;
+    border: 1px solid rgb(214, 214, 214);
+}
+
 .main-header {
     font-family: "Oswald",sans-serif;
     padding: 20px;
@@ -48,6 +56,14 @@ body {
     font-weight: 300;
 } */
 
+.product-section-name {
+    margin-left: 65px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 300;
+    transform: scaleY(1.5);
+    font-size: 20px;
+}
+
 .flex-container {
     height: 100vh;
     width: 100vw;
@@ -60,11 +76,11 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 16px;
 }
 
-.guitar-card {
+.card {
     background-color: #fff;
     padding: 15px;
     transition: 0.6s;
@@ -85,11 +101,16 @@ body {
     font-family: "Lato",sans-serif;
 }
 
-.guitar-card:hover {
+.card:hover {
     cursor: pointer;
     color: rgb(129, 113, 39);
     box-shadow: 3px 3px 8px rgb(46, 46, 46);
 } 
+
+.card-12 .bottom img {
+    height: 100%;
+    width: 100%;
+}
 
 /* Footer Section */
 
@@ -98,7 +119,8 @@ footer {
     text-align: center;
     background-color: #121212;
     position: relative;
-    top: 500px;
+    top: 1600px;
+    font-family: sans-serif;
 }
 
 table {
