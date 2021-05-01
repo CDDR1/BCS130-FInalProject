@@ -139,9 +139,22 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background: rgb(87, 85, 85);
+    background-color: #121212;
 }
 
+table {
+    text-align: left;
+    color: #fff;
+}
+
+td, tr, th {
+    width: 500px;
+    height: 50px;
+}
+
+th {
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 

@@ -23,7 +23,7 @@ body {
     color: #fff;
 }
 
-/* Main Section */
+ /* Main Section */
 .main-header {
     font-family: "Oswald",sans-serif;
     padding: 20px;
@@ -37,7 +37,7 @@ body {
     font-weight: 500;
 }
 
-.sub-header {
+/* .sub-header {
     background-color: #e2e2e2;
 }
 
@@ -46,7 +46,7 @@ body {
     padding: 20px;
     font-family: "Oswald",sans-serif;
     font-weight: 300;
-}
+} */
 
 .flex-container {
     height: 100vh;
@@ -89,7 +89,7 @@ body {
     cursor: pointer;
     color: rgb(129, 113, 39);
     box-shadow: 3px 3px 8px rgb(46, 46, 46);
-}
+} 
 
 /* Footer Section */
 
