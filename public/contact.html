@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="css/contact.css">
     <title>Contact</title>
 </head>
 <body>
-    <h1>Work in progress</h1>
+    <!-- Nav Bar -->
+    <nav>
+        <div class="flex-container">
+            <ul>
+                <a href="./index.html"><li>Home</li></a>
+                <a href="./products.html"><li>Products</li></a>
+                <a href="./products.html"><li>Accesories</li></a>
+                <a href="./about.html"><li>About</li></a>
+                <a href="./contact.html"><li>Contact</li></a>
+                <a href="./merchandise.html"><li>Merchandise</li></a>
+                <a href="./gallery.html"><li>Gallery</li></a>
+                <a href="./restoration.html"><li>Repair & Restoration</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <h1 class="main-title">Contact Us</h1>
+
+    <!-- Main Section -->
+    <section>
+        <div class="container">
+          <form action="https://formspree.io/mbjzbwaj" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName">First Name<span class="star-symbol">*</span></label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name<span class="star-symbol">*</span></label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email<span class="star-symbol">*</span></label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+
+    <!-- Footer -->
+    <Footer>
+        <table>
+            <tr>
+                <th>Products</th>
+                <th>Company</th>
+                <th>Customer Service</th>
+                <th>Account</th>
+            </tr>
+            <tr>
+                <td>Electric Guitars</td>
+                <td>About</td>
+                <td>Warranty</td>
+                <td>My Account</td>
+            </tr>
+            <tr>
+                <td>Les Paul</td>
+                <td>Contact Us</td>
+                <td>Support</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SG</td>
+                <td>Careers</td>
+                <td>Find a Dealer</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ES-335</td>
+                <td>Newsroom</td>
+                <td>Manuals</td>
+                <td></td>
+            </tr>
+        </table>
+    </Footer>
 </body>
 </html>
